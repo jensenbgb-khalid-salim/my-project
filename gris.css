@@ -1,0 +1,132 @@
+*{
+    margin: 0em;
+    padding: 0em;
+
+}
+html{
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat(8, 100px);
+    grid-gap: 5px;
+     max-width: 100%;
+    max-height: 100vw;
+    background-color: lightgray;
+    border: 2px solid black;
+
+}
+.second{
+    display: flex;
+}
+ .header{
+
+    grid-row: 1;
+    grid-column: 2/span 9;
+    
+ }
+ .frist{
+     grid-row: auto/ span 9;
+     grid-column: auto/ span 4;
+     display: flex;
+     margin: 10px;
+ }
+ .second2{
+    grid-row: auto/ span 9;
+    grid-column: auto/ span 4;
+ 
+
+}
+.thers3{
+    display: flex;
+  
+}
+.sec3{
+    width: 36%;
+    height: auto;
+}
+.sec4{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+.sec5{
+    width: 36%;
+    height: auto;
+}
+.sec6{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+.asid{
+    grid-row: 1/span 9;
+    grid-column: 1;
+}
+#aside{
+background-color:black ;
+opacity: 0.7;
+}
+.main{
+ grid-column: auto/ span 9;
+ grid-row: auto/ span 8 ;
+ display: grid;
+ flex-direction: row;
+ margin: 2%;
+   
+
+}
+ 
+
+#main{
+    background-color: lemonchiffon;
+}
+.round{
+   width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 50%;
+    display: flex;
+   
+}
+h3{
+   color: white;
+}
+.me{
+    color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+
+input{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 40px; 
+}
+.img1{
+    
+        width: 70%;
+        height: 70%;
+       
+}
+.img2{
+    
+    width: 70%;
+    height: 70%;
+ 
+
+}
+.black{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    margin: 2%;
+    width: 80px;
+    height: auto;
+}

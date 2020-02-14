@@ -1,0 +1,82 @@
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  
+
+  .wrapper {
+
+    background: #FAF5EB;
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+  }
+
+  
+
+  .title {
+
+    color: #692D55;
+
+    font-size: 48px;
+
+    margin: 0;
+
+  }
+
+  
+
+  .subtitle {
+
+    font-size: 20px;
+
+    color: #000000;
+
+    display: none;
+
+  }
+
+  
+
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+
+    .wrapper {
+
+      background: #000000;
+
+    }
+
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+
+    .wrapper {
+
+      background: #ffffff;
+
+    }
+
+  
+
+    .subtitle {
+
+      display: block;
+
+    }  
+
+  }
