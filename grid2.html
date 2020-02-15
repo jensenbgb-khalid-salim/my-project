@@ -2,139 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="grid2.css">
-
-    <title>grid2</title>
+    <title>sidenav2</title>
 </head>
 <body>
-    
-    <header class = "header">
-        <h1><b>We´ve got you Covered.</b></h1>
-        <p> Together we keep each other safe at home or at work. By paying a tiny fee a day, 
-            you are fully insured all day long. You get it all for as little as $0.4 per pay. </p>
-        <button> Join now!</button>
-        <img src="https://raw.githubusercontent.com/zocom-christoffer-wallenberg/Project-layout-insurance/master/img/family.png" alt="family">
-    </header>
-​
-    <section class = "section1">
-        <p>What do we have to offer?</p>
-        <h1>Learn more</h1>
-    </section>
-​
-    <section class = "section2">
-        <p>What are you waiting for?</p>
-        <h1>Join today</h1>
-    </section>
-​
-    <nav class = "nav1">
-        <a href="#">Home</a>
-        <a href="#">Our Offer</a>
-        <a href="#">Why us?</a>
-        <a href="#">Contact</a>
-    </nav>
-​
-    <main class = "main1">
-        <h1>Your personal financial safety net online.</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Tenetur ea distinctio sunt omnis accusamus sint repellat praesentium 
-            blanditiis maxime iste labore numquam laboriosam nam nulla, 
-            minus recusandae laborum architecto? Illo!</p>
-            <button> Join now!</button>
-​
-​
-        
-    </main>
-​
-    <section class="cards">
-​
-        <main class = iBox1>
-​
-            <img src="https://raw.githubusercontent.com/zocom-christoffer-wallenberg/Project-layout-insurance/master/img/child.png" id="iBoxImg1" alt="child">
-        
-                <h1>Children</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Tenetur ea distinctio sunt omnis accusamus sint repellat praesentium 
-                    blanditiis maxime iste labore numquam laboriosam nam nulla, 
-                    minus recusandae laborum architecto? Illo!</p>
-        
-        </main>
-​
-        <main class = "iBox2">
-            <img src="https://raw.githubusercontent.com/zocom-christoffer-wallenberg/Project-layout-insurance/master/img/adult.png" id="iBoxImg2" alt="adult">
-      
-            <h1>Just Right</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Tenetur ea distinctio sunt omnis accusamus sint repellat praesentium 
-                blanditiis maxime iste labore numquam laboriosam nam nulla, 
-                minus recusandae laborum architecto? Illo!</p>
-        </main>
-​
-        <main class = "iBox3">
-            <img src="https://raw.githubusercontent.com/zocom-christoffer-wallenberg/Project-layout-insurance/master/img/old.png" id="iBoxImg3" alt="old">
-      
-            <h1>Old fart</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Tenetur ea distinctio sunt omnis accusamus sint repellat praesentium 
-                blanditiis maxime iste labore numquam laboriosam nam nulla, 
-                minus recusandae laborum architecto? Illo!</p>
-            </main>
-    </section>
-​
-​
-    <main class = "main2">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Tenetur ea distinctio sunt omnis accusamus sint repellat praesentium 
-            blanditiis maxime iste labore numquam laboriosam nam nulla, 
-            minus recusandae laborum architecto? Illo!<br><br> Pellentesque a tellus mauris. Nam sodales pretium rutrum. 
-            Aenean imperdiet, leo nec consectetur blandit, risus erat commodo tortor, 
-            sit amet dignissim orci lorem vel felis. Ut tempus dignissim.</p>
-    </main>
-​
-    <section class = "box1">
-        <h1>How<br> It works?</h1>
-    </section>
-​
-    <section class = "box2">
-        <h1>01</h1>
-        <p> Answer a few questions<br>about yourself</p>
-    </section>
-​
-    <section class = "box3">
-        <h1>02</h1>
-        <p>Choose a plan.<br>Get a quote.</p>
-    </section>
-​
-    <section class = "box4">
-        <h1>03</h1>
-        <p>Answer some questions about<br> your medical history.</p>
-    </section>
-​
-    <section class = "box5">
-        <h1>04</h1>
-        <p>Wait 90 sec to get approval</p>
-    </section>
-​
-    <section class = "box6">
-        <h1>05</h1>
-        <p>Done!</p>
-    </section>
-​
-    <nav class = "nav2">
-        <a href="#">Take me up again!</a>
-    </nav>
-​
-    <footer class = "footer">
-    </footer>
 
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()">open</span>
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    ...
+  </div>
 
-
-
-
-
-   
-    
+  
 </body>
 </html>
